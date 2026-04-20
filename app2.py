@@ -7,7 +7,7 @@ import pandas as pd
 model = joblib.load('model.pkl')
 
 # Load dataset (use relative path)
-df = pd.read_excel("C:/Users/dell/Downloads/mp_dataset_processed.xlsx")
+df = pd.read_excel("mp_dataset_processed.xlsx")
 
 # Features and targets
 feature_names = list(df.columns[:10])
