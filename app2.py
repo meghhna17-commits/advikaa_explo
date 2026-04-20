@@ -14,9 +14,7 @@ feature_names = list(df.columns[:10])
 target_names = list(df.columns[-2:])
 
 # Title
-st.title("Material Property Predictor")
-st.caption("ML-based prediction tool using Linear Regression")
-st.divider()
+st.title("FormuGen AI: Predict. Optimize. Deliver")
 
 st.markdown("### Enter input feature values:")
 
